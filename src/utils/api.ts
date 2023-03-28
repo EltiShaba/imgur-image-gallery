@@ -7,6 +7,7 @@ const getAuthorizationHeader = () => ({
   Authorization: `Client-ID 9b330139461a172`,
 });
 
+//NOTE: Was having a 429 error code response, so I got the response JSON from POSTMAN and created a dummy response in order to continue the work.
 const dummyResponse = {data: {
   "data": [
       {

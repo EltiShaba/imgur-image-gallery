@@ -1,0 +1,35 @@
+    .ImageCard {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s ease-in-out;
+        overflow: hidden;
+    }
+    
+    .ImageCard:hover {
+        transform: translateY(-5px);
+    }
+    
+    .ImageCard img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .ImageCard-details {
+        padding: 10px;
+    }
+    
+    .ImageCard-details h2 {
+        margin: 0;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    .ImageCard-details p {
+        margin: 5px 0 0;
+        font-size: 0.8rem;
+    }

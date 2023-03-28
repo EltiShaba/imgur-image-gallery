@@ -9,7 +9,7 @@ interface Props {
 const ImageCard = ({ image }: Props) => {
   return (
     <div className="ImageCard">
-      <img src={image.link} alt={image.title} width="400" />
+      <img src={image.link} alt={image.title} />
       <div className="ImageCard-details">
         <h2>{image.title}</h2>
         <p>{image.description}</p>

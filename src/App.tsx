@@ -8,7 +8,7 @@ import { ThunkAction, ThunkDispatch } from 'redux-thunk';
 import { AnyAction } from 'redux';
 import { ImgurAction } from './actions';
 
-function App() {
+const App =() => {
   const dispatch = useDispatch<ThunkDispatch<RootState, undefined, ImgurAction>>();
   const images = useSelector((state: RootState) => state.imgur.images);
   const isLoading = useSelector((state: RootState) => state.imgur.isLoading);
